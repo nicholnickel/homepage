@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+background-color: black;
+color: white
+}
+p {
+text-align:right;
+font-family:Trebuchet MS
+}
+h3 {
+font-family:courier new
+}
+</style>
+
+<p style="text-align:center;">hey did-diddle,
+<br >have you ever heard
+<br> <bdo dir="rtl">about the legendary cow</bdo>
+<br>that jumped over the Moon?
+</p>
+
+<p>it;s quite cr!az-y, <bdo dir="rtl">if you think about it</bdo></p>
+
+<table>
+<tr>
+<th style="text-align:left;">diddles and fiddles</th>
+<th>cats and dogs raining</th>
+<th style="color:pink;">spoons and forks</th>
+</tr>
+<br>
+<tr>
+<th style="text-align:right;">musical cows and cows</th>
+<th style="text-align:left;">diddle and dishes</th>
+<th>how they laughed</th>
+<th>giggle and fiddle</th>
+</tr>
+</table>
+
+<h3 style="color:yellow;">Ready to jump over the Moon?</h3>
+<br><h4 style="text-align:right;"> Shall we go find the dish and spoon? </h4>
+<h3 style="color:yellow;">Then let's go talk to the Cow!</h3>
+
+</html>
+
+
