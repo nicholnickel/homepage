@@ -36,7 +36,8 @@
 [[CREDITS-&gt;credits]]
 
 (group: &#39;playing&#39;, &#39;stop&#39;)
-(track: &#39;Main&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="2" name="intro1" tags="" position="1025,375" size="100,100">
+(track: &#39;Main&#39;, &#39;play&#39;)
+(track: &#39;Main&#39;, &#39;loop&#39;, true)</tw-passagedata><tw-passagedata pid="2" name="intro1" tags="" position="1025,375" size="100,100">
 &lt;p&gt;&lt;b&gt;Old Neighbor Mrs. Garcia&lt;/b&gt;: Oh, finally, there you are!
 &lt;br&gt;
 Quick, (text-colour:yellow)[I need you to fetch my cane,] child. I lost it somewhere, but it&#39;s not in the house. What a nuisance... I can&#39;t get anywhere around without it!&lt;/p&gt;
@@ -382,7 +383,8 @@ Before you can turn,(text-colour:yellow)[ a gremlin] appears and (text-colour:ye
 
 
 (group: &#39;playing&#39;, &#39;stop&#39;)
-(track: &#39;Trollbridge&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="35" name="fight" tags="" position="1275,1550" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
+(track: &#39;Trollbridge&#39;, &#39;play&#39;)
+(track: &#39;Trollbridge&#39;, &#39;loop&#39;, true)</tw-passagedata><tw-passagedata pid="35" name="fight" tags="" position="1275,1550" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
 
 (align:&quot;&lt;==&quot;)+(box:&quot;=XX=&quot;)[&lt;img src=&quot;https://static.vecteezy.com/system/resources/previews/068/400/180/non_2x/pixel-art-minotaur-warrior-with-spear-in-stone-archway-vector.jpg&quot; height=&quot;480&quot; width=&quot;500;&quot;&gt;]
 
@@ -433,21 +435,24 @@ Before you can turn,(text-colour:yellow)[ a gremlin] appears and (text-colour:ye
 (if: $keytail and $keybody is true)[[[Return to yardsale-&gt;toyardsale2]]]
 
 (group: &#39;playing&#39;, &#39;stop&#39;)
-(track: &#39;Main&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="39" name="eastish" tags="" position="1450,1325" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
+(track: &#39;Main&#39;, &#39;play&#39;)
+(track: &#39;Main&#39;, &#39;loop&#39;, true)</tw-passagedata><tw-passagedata pid="39" name="eastish" tags="" position="1450,1325" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
 
 (align:&quot;&lt;==&quot;)+(box:&quot;==XXXXX===&quot;)[&lt;i&gt;Welcome to Eastish!&lt;/i&gt;
 ]
 (align:&quot;=&gt;&lt;=&quot;)[[[&lt;img src=&quot;https://i.etsystatic.com/18279207/r/il/d890c5/4974518878/il_570xN.4974518878_pw0o.jpg&quot; height=&quot;340&quot; width=&quot;550;&quot;&gt;-&gt;village1]]]
 
 (group: &#39;playing&#39;, &#39;stop&#39;)
-(track: &#39;Eastish&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="40" name="westish" tags="" position="1450,1625" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
+(track: &#39;Eastish&#39;, &#39;play&#39;)
+(track: &#39;Eastish&#39;, &#39;loop&#39;, true)</tw-passagedata><tw-passagedata pid="40" name="westish" tags="" position="1450,1625" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
 
 (align:&quot;&lt;==&quot;)+(box:&quot;==XXXXX===&quot;)[&lt;i&gt;Welcome to Westish!&lt;/i&gt;
 ]
 (align:&quot;=&gt;&lt;=&quot;)[[[&lt;img src=&quot;https://us.123rf.com/450wm/virtosmedia/virtosmedia2302/virtosmedia230279306/199285916-wooden-pier-on-the-background-of-the-sea-vector-illustration.jpg&quot; height=&quot;300&quot; width=&quot;550;&quot;&gt;-&gt;dock1]]]
 
 (group: &#39;playing&#39;, &#39;stop&#39;)
-(track: &#39;Westish&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="41" name="dock1" tags="" position="1575,1625" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
+(track: &#39;Westish&#39;, &#39;play&#39;)
+(track: &#39;Westish&#39;, &#39;loop&#39;, true)</tw-passagedata><tw-passagedata pid="41" name="dock1" tags="" position="1575,1625" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
 
 (align:&quot;&lt;==&quot;)+(box:&quot;=XX=&quot;)[&lt;img src=&quot;https://pbs.twimg.com/media/D6EoiJpX4AIOewi.png&quot; height=&quot;400&quot; width=&quot;450;&quot;&gt;]
 
@@ -553,7 +558,8 @@ keytail gif
 (align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[[[next-&gt;yardsale5]]]
 
 (group: &#39;playing&#39;, &#39;stop&#39;)
-(track: &#39;Dragon&#39;, &#39;play&#39;)</tw-passagedata><tw-passagedata pid="51" name="village1" tags="" position="1575,1325" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
+(track: &#39;Dragon&#39;, &#39;play&#39;)
+(track: &#39;Dragon&#39;, &#39;loop&#39;, true)</tw-passagedata><tw-passagedata pid="51" name="village1" tags="" position="1575,1325" size="100,100">(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[(text-colour:orange)[Bronze coins: $money]]
 
 (align:&quot;&lt;==&quot;)+(box:&quot;=XX=&quot;)[&lt;img src=&quot;https://static.vecteezy.com/system/resources/previews/068/866/381/non_2x/charming-pixel-art-village-background-123456-vector.jpg&quot; height=&quot;330&quot; width=&quot;510;&quot;&gt;]
 
@@ -920,7 +926,11 @@ Well, (text-colour:yellow)[here&#39;s your reward.] Don&#39;t spend it all in on
 &lt;p&gt;&lt;b&gt;Old Neighbor Mrs. Garcia&lt;/b&gt;: Oh, child, you found it! (text-colour:yellow)[What a relief. ]Thank you, I suppose. Now. Where have I put (text-colour:yellow)[my glasses...?]&lt;/p&gt;
 
 (align:&quot;&lt;==&quot;)+(box:&quot;=XX=&quot;)[&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxIGvrxxpM4DwP3RqTHu7s5UHNi8h6p4LpVw&amp;s&quot; width=&quot;400&quot; height=&quot;400&quot;&gt;]
-(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[[[next-&gt;end2]]]</tw-passagedata><tw-passagedata pid="93" name="end2" tags="" position="2050,550" size="100,100">
+(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[[[next-&gt;end2]]]
+
+(group: &#39;playing&#39;, &#39;stop&#39;)
+(track: &#39;Main&#39;, &#39;play&#39;)
+(track: &#39;Main&#39;, &#39;loop&#39;, true)</tw-passagedata><tw-passagedata pid="93" name="end2" tags="" position="2050,550" size="100,100">
 &lt;p&gt;&lt;b&gt;Old Neighbor Mrs. Garcia&lt;/b&gt;: (text-colour:yellow)[Oh, here they are! ]Nevermind! My age is catching up with me...&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Old Neighbor Mrs. Garcia&lt;/b&gt;: Now, why don&#39;t you run along? Maybe go see the world or the peaks. (text-colour:yellow)[It&#39;s a pretty world out there...] Not without its dangers, but you should venture through it some time...&lt;/p&gt;
@@ -934,7 +944,7 @@ Well, (text-colour:yellow)[here&#39;s your reward.] Don&#39;t spend it all in on
 =&gt;&lt;=
 THE END
 
-[[restart?-&gt;begin]]</tw-passagedata><tw-passagedata pid="95" name="hal.tracks" tags="hal.tracks" position="375,375" size="100,100">Trollbridge: https://nicholnickel.github.io/homepage/images/trollbridge.mp4
+[[restart?-&gt;begin]]</tw-passagedata><tw-passagedata pid="95" name="hal.tracks" tags="hal.tracks" position="575,350" size="100,100">Trollbridge: https://nicholnickel.github.io/homepage/images/trollbridge.mp4
 Dragon: https://nicholnickel.github.io/homepage/images/dragon.mp4
 Westish: https://nicholnickel.github.io/homepage/images/westish.mp4
 Eastish: https://nicholnickel.github.io/homepage/images/eastish.mp4
